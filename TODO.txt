@@ -1,3 +1,4 @@
 - store decks (*.dat) in a separate directory
 - add cards from the command line
 - next version: add createdAt property to Card class
+- revise menu (remove category option, dynamically generate options)
