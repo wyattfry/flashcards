@@ -20,12 +20,13 @@ Your selection:
 ## Compile
 Navigate outside the package directory `flashcards` and execute the following command:
 ```bash
-$ javac flashcards/FlashCards.java
+$ mkdir -p out/production/flashcards
+$ javac -d out/production/flashcards/ -cp src/ src/flashcards/FlashCards.java
 ```
 ## Run
 Interactive mode:
 ```bash
-$ java flashcards.FlashCards
+$ java -cp out/production/flashcards/ flashcards.FlashCards
 ```
 A ``cards.dat`` file will be created if none exists to store your flash cards.
 You can specify a deck file to use with the ``-f`` option, e.g.:
