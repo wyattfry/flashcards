@@ -4,5 +4,5 @@
 .settings/
 backup_cards.dat
 bin/
-cards.dat*.class
+*.class
 cards.dat
